@@ -15,7 +15,15 @@ import java.util.List;
 public class UserController {
     @Resource
     private UserServiceFeign userServiceFeign;
-
+    /**
+    * @Description:    java类作用描述
+    * @Author:         门玉杰
+    * @CreateDate:     2019/11/11 8:50
+    * @UpdateUser:     yc
+    * @UpdateDate:     2019/11/11 8:50
+    * @UpdateRemark:   修改内容
+    * @Version:        1.0
+    */
     //测试框架是否可用
     @RequestMapping("/test")
     public  void test(){
